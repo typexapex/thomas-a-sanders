@@ -1,0 +1,26 @@
+.project-card {
+  height: 184px;
+  width: 304px;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#chef-space {
+  background-image: url('../images/index_card_yellow.png');
+}
+
+#split-it {
+  background-image: url('../images/index_card_blue.png');
+}
+
+#ui-kit {
+  background-image: url('../images/index_card_pink.png');
+}
+
+.project-card:hover {
+  z-index:  100;
+}
+

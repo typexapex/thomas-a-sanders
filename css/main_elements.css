@@ -1,0 +1,92 @@
+
+// below kills the annoying default browser styles
+body {
+  background-color: rgb(250,250,250);
+  color: rgb(40,40,40);
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+a:hover {
+  color: #999999;
+}
+
+li {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.skills-header {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.post-it-social {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.post-it i {
+  font-size: 32px;
+}
+
+.project-h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 16px;
+}
+
+.project-card-p {
+  font-family: 'Permanent Marker';
+  line-height: 1;
+}
+
+.project-card-h1 {
+  font-family: 'Permanent Marker';
+  font-size: 24px;
+}
+
+.project-site {
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  color: black;
+  align-self: left;
+}
+
+.project-p {
+  margin-top: 16px;
+}
+
+.credits {
+  font-family: 'Reenie Beanie', cursive;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+  font-size: 24px;
+  opacity: 0.3;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.split-it-list {
+  font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,73 @@
+/*background color: #DCA9B6*/
+
+/*first 4 buttons*/
+.button-one {
+  width: 160px;
+  height: 56px;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  background: #dca9b6;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0 #740068, -8px -8px 0 #740068, -8px 8px 0 #740068, 8px -8px 0- #740068;
+  transition: 500ms ease-in-out;
+}
+
+.button-one:hover {
+  box-shadow: 24px 8px 0 #740068, -24px -8px 0 #740068;
+}
+
+.button-one:focus {
+  outline: none;
+}
+
+#button-one-round {
+  border-radius: 8px;
+}
+
+#button-one-reverse:hover {
+  box-shadow: 24px -8px 0 #740068, -24px 8px 0 #740068
+}
+
+#button-one-round-reverse:hover {
+  box-shadow: 24px -8px 0 #740068, -24px 8px 0 #740068
+}
+
+#button-one-round-reverse {
+  border-radius: 8px;
+}
+/*end of first 4 buttons*/
+/*beginning of button 2*/
+.button-two {
+  text-decoration: none;
+  border-radius: 2px 1px solid rgb(116,0,104);
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  height: 56px;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.button-two:hover {
+  box-shadow: 1px 1px 25px 10px rgba(116,0,104,0.4);
+}
+
+.button-two:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(116,0,104,0.4), transparent);
+  transition: all 650ms;
+}
+
+.button-two:hover:before {
+  left: 100%;
+}
+/*end of button 2*/
+
+
+
