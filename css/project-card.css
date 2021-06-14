@@ -9,15 +9,15 @@
 }
 
 #chef-space {
-  background-image: url('../images/index_card_yellow.png');
+  background-image: url('/images/index_card_yellow.png');
 }
 
 #split-it {
-  background-image: url('../images/index_card_blue.png');
+  background-image: url('/images/index_card_blue.png');
 }
 
 #ui-kit {
-  background-image: url('../images/index_card_pink.png');
+  background-image: url('/images/index_card_pink.png');
 }
 
 .project-card:hover {
