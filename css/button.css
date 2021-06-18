@@ -1,6 +1,4 @@
-/*background color: #DCA9B6*/
-
-/*first 4 buttons*/
+/* Expanding Shadow buttons */
 .button-one {
   width: 160px;
   height: 56px;
@@ -36,8 +34,8 @@
 #button-one-round-reverse {
   border-radius: 8px;
 }
-/*end of first 4 buttons*/
-/*beginning of button 2*/
+/* End of Expanding Shadow buttons */
+/* Glow button */
 .button-two {
   text-decoration: none;
   border-radius: 2px 1px solid rgb(116,0,104);
@@ -67,7 +65,4 @@
 .button-two:hover:before {
   left: 100%;
 }
-/*end of button 2*/
-
-
-
+/* End of Glow button */

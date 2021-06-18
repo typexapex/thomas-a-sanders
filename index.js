@@ -1,4 +1,5 @@
 // Make the div element draggable
+// selectors for each draggable element
 dragElement(document.getElementById('chef-space'));
 dragElement(document.getElementById('split-it'));
 dragElement(document.getElementById('ui-kit'));
