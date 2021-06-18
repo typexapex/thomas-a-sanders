@@ -8,6 +8,10 @@
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.project-card:hover {
+  z-index:  100;
+}
+
 #chef-space {
   background-image: url('../images/index_card_yellow.png');
 }
@@ -19,8 +23,3 @@
 #ui-kit {
   background-image: url('../images/index_card_pink.png');
 }
-
-.project-card:hover {
-  z-index:  100;
-}
-
