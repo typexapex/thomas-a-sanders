@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 /* End of fonts */
-
+/* Main page elements */
 body {
   background-color: rgb(250,250,250);
   color: rgb(40,40,40);
@@ -17,6 +17,19 @@ ul {
   list-style: none;
 }
 
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 16px;
+}
+li {
+  font-family: 'Permanent Marker', cursive;
+}
+
 a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
@@ -26,19 +39,18 @@ a {
 a:hover {
   color: #999999;
 }
+/* End main page elements */
+/* Classes attached to main page elements */
 
-li {
-  font-family: 'Permanent Marker', cursive;
-}
-
+/* h2 class for skills div header */
 .skills-header {
   font-family: 'Permanent Marker', cursive;
 }
-
+/* style FontAwesome socials links */
 .post-it-social {
   font-family: 'Permanent Marker', cursive;
 }
-
+/* style icon font size on post-it div */
 .post-it i {
   font-size: 32px;
 }
@@ -47,11 +59,6 @@ li {
   font-family: 'Bebas Neue', cursive;
   font-size: 48px;
   margin-bottom: 24px;
-}
-
-p {
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 16px;
 }
 
 .project-card-p {
@@ -75,7 +82,7 @@ p {
 .project-p {
   margin-top: 16px;
 }
-
+/* Style the credits in the bottom-right of the index */
 .credits {
   font-family: 'Reenie Beanie', cursive;
   color: black;
@@ -86,10 +93,7 @@ p {
   opacity: 0.3;
 }
 
-h2 {
-  font-family: 'Lato', sans-serif;
-}
-
 .split-it-list {
   font-family: 'Lato', sans-serif;
 }
+/* End classes attached to main page elements */
