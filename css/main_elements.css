@@ -1,5 +1,8 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+/* End of fonts */
 
-// below kills the annoying default browser styles
 body {
   background-color: rgb(250,250,250);
   color: rgb(40,40,40);

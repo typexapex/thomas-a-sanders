@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-
+/* Index page containers */
 .wrapper {
   height: 100vh;
   width: 100vw;
@@ -8,7 +6,7 @@
   background-size: cover;
   position: relative;
 }
-
+/* Position the div containing skills info */
 .skills {
   position: absolute;
   transform: rotate(29deg);
@@ -16,7 +14,8 @@
   left: 6vw;
   line-height: 1.6em;
 }
-
+/* Create a post-it in vanilla css */
+/* Linear gradient to give it some texture */
 .post-it {
   background: rgb(219,252,71);
   background: linear-gradient(45deg, rgba(219,252,71,1) 7%, rgba(208,238,71,1) 21%, rgba(219,252,71,1) 30%);
@@ -35,7 +34,9 @@
   display: flex;
   justify-content: space-evenly;
 }
-
+/* End index page containers */
+/* Project page containers */
+/* For left-hand div on project pages */
 .left {
   height: 100vh;
   color: black;
@@ -49,7 +50,6 @@
   width: 50%;
 }
 
-
 #chef-left {
   background-color: #F5E7A9;
 }
@@ -61,7 +61,7 @@
 #ui-left {
   background-color: #DCA9B6;
 }
-
+/* Position the back arrow near the top-left */
 .back-arrow {
   position: fixed;
   top: 16px;
@@ -78,7 +78,6 @@
   padding: 10%;
   grid-column-start: 2;
 }
-
 
 .project-wrapper {
   height: 100vh;
@@ -103,10 +102,10 @@
   text-align: center;
 }
 
-
 .ui {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 24px;
   padding-top: 24px;
 }
+/* End of project page containers */
