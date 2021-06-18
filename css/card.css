@@ -1,12 +1,12 @@
-/*circular overlay card*/
-/*wrapper to align the card on the page*/
+/* circular overlay card */
+/* wrapper to align the card on the page */
 .card-co-wrapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-/*card body - transition will grow from bottom left*/
+/* card body - transition will grow from bottom right */
 .card-co {
   width: 300px;
   height: 440px;
@@ -51,8 +51,8 @@
   transition: all .5s cubic-bezier(.8,.5,.2,1.4);
   transform: scale(1.7) rotate(20deg);
 }
-/*end of circular overlay card*/
-/*beginning of split card*/
+/* end of circular overlay card */
+/* beginning of split card */
 .split-card {
   position: relative;
   border-radius: 10px;
@@ -146,8 +146,3 @@
   text-align: center;
   color: #414141;
 }
-
-
-
-
-
